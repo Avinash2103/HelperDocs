@@ -1,0 +1,51 @@
+amit.kasundra@centos.tatva.com 
+CREATE FUNCTION SplitString
+(    
+      @Input NVARCHAR(MAX),
+      @Character CHAR(1)
+)
+RETURNS @Output TABLE (
+      Item NVARCHAR(1000)
+)
+AS
+BEGIN
+      DECLARE @StartIndex INT, @EndIndex INT
+ 
+      SET @StartIndex = 1
+      IF SUBSTRING(@Input, LEN(@Input) - 1, LEN(@Input)) <> @Character
+      BEGIN
+            SET @Input = @Input + @Character
+      END
+ 
+      WHILE CHARINDEX(@Character, @Input) > 0
+      BEGIN
+            SET @EndIndex = CHARINDEX(@Character, @Input)
+           
+            INSERT INTO @Output(Item)
+            SELECT SUBSTRING(@Input, @StartIndex, @EndIndex - 1)
+           
+            SET @Input = SUBSTRING(@Input, @EndIndex + 1, LEN(@Input))
+      END
+ 
+      RETURN
+END
+GO
+ 
+
+-- Using the Split String function in SQL Query
+
+SELECT Item
+FROM dbo.SplitString('Apple,Mango,Banana,Guava', ',')
+Create this function in your database
+
+
+heli.shah 
+ohk15:12
+can i pass SELECT Item
+FROM dbo.SplitString('Apple,Mango,Banana,Guava', ',') this statement in my sp call?
+
+15:17
+amit.kasundra@centos.tatva.com 
+WHERE
+
+P.SIZE IN(SELECT Item FROM dbo.SplitString('XL,XXL,L', ','))

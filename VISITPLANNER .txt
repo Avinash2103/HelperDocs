@@ -1,0 +1,60 @@
+Prospect mappping
+TFS:
+Server : stockholmdelhi.visualstudio.com
+User/PW : hardik.panchal@tatvasoft.com / HardikP147
+=============================================================
+http://prospectmapping.cloudapp.net/VisitPlanner/
+Colgate_Admin
+Admins : christian/ Nisse/ hakan/ Henry/ Elin/ hakan.rorstad/ Roger_Sjodin/ EJohan/ HelaMastern
+new user : pera/Degerfors01
+=============================================================
+http://www.prospectmappingsystems.se/Default.aspx?ReturnUrl=%2f
+Admin : elin / testaelin
+SystemAdmin: pera / Degerfors01  , per.agren@stockholmdelhi.se / Degerfors01
+CustomerAdmin: per / Degerfors01
+=============================================================
+http://selltick.prospectmapping.se/system/frameset.asp?screen=MAX
+Classic asp implementation
+SystemAdmin: per.agren@stockholmdelhi.se / Degerfors01
+=============================================================
+Orders : RedBull_Henrik_F / HF@redbull2016
+=============================================================
+Server: prospectmapping.cloudapp.net:53093, 
+User/Password : itrAdmin / adm#788!itr
+=============================================================
+Map : https://developer.here.com/
+un/pw : hakan.rorstad@prospectmapping.se / DEV@pmss2017
+AppId: sMaUWw2p7H1GC2Rwt1k4 
+AppCode: 6w2WajkQ1e6LYs4VhhuoZA
+=============================================================
+un/pw : ishita.tatva@gmail.com/ tatva123
+AppID : vfLNULpEdvYkpRczWRp5
+AppCode : _mgf43jjM6t5NhKmeCROdA
+=============================================================
+calendar
+http://www.bootstrap-year-calendar.com/#Documentation/Options
+=============================================================
+Akerbla - Server Cred
+Server name : v2qnjuh0o9.database.windows.net
+un : itrAdmin
+pw : adm#788!itr 
+=============================================================
+Auction- Users
+User: bengt.svensson@stockholmdelhi.se Password: Bolintest User: bengtsve@gmail.com Password: Bolintest
+=============================================================
+xamarin machine
+pci226
+Tatva@123
+=============================================================
+mognoDb cloude database
+user : avi_21mongo
+Password :avi21@mongodb
+=============================================================
+AppleID:
+developer@prospectmapping.se <mailto:developer@prospectmapping.se> 
+APP@pmss2017
+=============================================================
+sql Server: 87.237.213.54,1433
+User: developer
+Password: DEV@PMSS2018
+=============================================================
